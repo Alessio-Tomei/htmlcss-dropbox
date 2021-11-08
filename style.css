@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid black; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.belittle-text{
+    font-size: 16px;
 }
 
 .center-conteiner{
@@ -31,6 +47,8 @@ header{
     line-height: 80px;
     background-color: white;
     position: fixed;
+    top: 0%;
+    left: 0%;
     padding: 0px 30px;
 }
 
@@ -54,7 +72,6 @@ header .logo img{
     float: right;
     text-align: end;
 }
-
 
 #header-left > *,
 #header-right > *{
@@ -94,14 +111,59 @@ header nav ul li a{
 }
 
 .btn-padding-1{
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
-
 
 /* Fine stile bottoni */
 
-
-
 main{
-    background-color: rgb(0, 138, 124);
+    margin-top: 80px;
 }
+
+/* Inizio stile banner */
+
+#banner{
+    background-color: #b4d0e7;
+    margin-bottom: 100px;
+}
+
+#banner h1{
+    font-size: 90px;
+}
+
+#banner .jumbo-translate{
+    transform: translate(0px, 80px);
+}
+
+#banner .jumbo-text{
+    width: 30%;
+    float: left;
+}
+
+#banner .jumbo-text p{
+    margin-bottom: 30px;
+}
+
+#banner p.belittle-text{
+    margin-top: 10px;
+}
+
+#banner .jumbo-text > a{
+    color: black;
+    font-size: 50px;
+}
+
+#banner .jumbo-text a.button{
+    display: inline-block;
+}
+
+#banner .jumbo-img{
+    width: 70%;
+    float: left;
+}
+
+#banner .jumbo-img img{
+    width: 100%;
+}
+
+/* Fine stile banner */
