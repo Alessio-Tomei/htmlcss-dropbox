@@ -111,8 +111,17 @@ header nav ul li a{
     color: white;
 }
 
+.btn-color-2{
+    border: 1px solid black;
+    color: black;
+}
+
 .btn-padding-1{
     padding: 5px 20px;
+}
+
+.btn-padding-2{
+    padding: 8px 20px;
 }
 
 /* Fine stile bottoni */
@@ -166,6 +175,10 @@ main{
 /* Fine stile banner */
 
 /* Inizio stile piani tariffari */
+
+#tarrif-plan{
+    margin-bottom: 150px;
+}
 
 #tarrif-plan div.center-conteiner > *,
 #tarrif-plan .plan-conteiner .float-plan-conteiner{
@@ -234,6 +247,10 @@ main{
     text-align: center;
 }
 
+#tarrif-plan .plan-conteiner .plan-link p a{
+    color: #0061ff;
+}
+
 #tarrif-plan .plan-conteiner .plan-highlights h4{
     margin-bottom: 20px;
 }
@@ -270,3 +287,81 @@ main{
     width: 20%;
     border-bottom: 1px solid lightgray;
 }
+
+/* Inizio stile find-partner */
+
+#find-partner{
+    margin-bottom: 150px;
+}
+
+#find-partner .clearfix > div:first-child{
+    float: left;
+    width: 55%;
+}
+
+#find-partner .clearfix > div:last-child{
+    float: right;
+    width: 45%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#find-partner .clearfix div img{
+    width: 100%;
+}
+
+#find-partner .clearfix div h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#find-partner .clearfix div p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#find-partner .clearfix div .button{
+    display: inline-block;
+}
+
+/* Fine stile find-partner */
+
+/* Inizio stile dropbox-features */
+
+#dropbox-features{
+    margin-bottom: 150px;
+} 
+
+#dropbox-features .features-box{
+    float: left;
+    width: 30%;
+}
+
+#dropbox-features .features-box:nth-child(3n +2){
+    margin: 0% 5%;
+}
+
+#dropbox-features .features-box img{
+    width: 100%;
+}
+
+#dropbox-features h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#dropbox-features .features-box{
+    margin-bottom: 40px;
+}
+
+#dropbox-features .features-box h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#dropbox-features .features-box p span{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+/* Fine stile dropbox-features */
