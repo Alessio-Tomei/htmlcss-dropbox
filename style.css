@@ -212,12 +212,28 @@ main{
     margin-bottom: 40px;
 }
 
-#tarrif-plan .plan-conteiner .plan-type{
+#tarrif-plan .plan-conteiner .plan-box .plan-type{
     text-align: center;
     border-bottom: 1px solid lightgray;
     padding: 10px 0px;
     margin-bottom: 30px;
 }
+
+/* Ricentratura icone */
+
+#tarrif-plan .plan-conteiner .plan-box i{
+    margin-left: -18px;
+}
+
+#tarrif-plan .plan-conteiner .plan-box div.plan-features{
+    padding-left: 48px;  
+}
+
+#tarrif-plan .plan-conteiner .plan-box .plan-highlights ul{
+    padding-left: 18px;
+}
+
+/* Fine ricentratura icone */
 
 #tarrif-plan .plan-conteiner h3{
     font-size: 25px;
@@ -440,38 +456,70 @@ main{
     margin-top: 50px;
 }
 
-/* Colori logo compagnie*/
+/* Colori logo compagnie e hover*/
 
 #company-1{
     background-color: #a2d39b;
+}
+
+#company-1:hover{
+    border: 10px solid #c7ffc0;
 }
 
 #company-2{
     background-color: #61082b;
 }
 
+#company-2:hover{
+    border: 10px solid #a10e49;
+}
+
 #company-3{
     background-color: #0093ce;
+}
+
+#company-3:hover{
+    border: 10px solid #40c9ff;
 }
 
 #company-4{
     background-color: #ff1c1c;
 }
 
+#company-4:hover{
+    border: 10px solid #ff5f5f;
+}
+
 #company-5{
     background-color: #d5001f;
+}
+
+#company-5:hover{
+    border: 10px solid #ff3453;
 }
 
 #company-6{
     background-color: #b4d0e7;
 }
 
+#company-6:hover{
+    border: 10px solid #fcfeff;
+}
+
 #company-7{
     background-color: #0d2481;
 }
 
+#company-7:hover{
+    border: 10px solid #2844b3;
+}
+
 #company-8{
     background-color: #ffd830;
+}
+
+#company-8:hover{
+    border: 10px solid #ffeea3;
 }
 
 #company .company-link{
@@ -506,6 +554,118 @@ main{
 
 /* Inizio stile faq */
 
+#faq{
+    margin-bottom: 150px;
+}
 
+#faq h3{
+    font-size: 35px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+#faq .row{
+    border-bottom: 1px solid lightgray;
+    padding: 30px 0px;
+}
+
+#faq .question{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#faq .question p{
+    font-weight: bold;
+}
+
+#faq .question i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+}
+
+#faq .question i.fa-chevron-up{
+    display: none;
+}
+
+#faq .answer{
+    display: none;
+    margin-top: 30px;
+    padding-right: 70px;
+}
+
+#faq .row:hover .answer{
+    display: block;
+}
+
+#faq .row:hover i.fa-chevron-up{
+    display: inline;
+}
+
+#faq .row:hover i.fa-chevron-down{
+    display: none;
+}
 
 /* Fine stile faq */
+
+/* Inizio stile footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+}
+
+footer .center-conteiner > *{
+    margin-bottom: 40px;
+}
+
+footer .footer-box{
+    float: left;
+    width: 20%;
+    padding-right: 30px;
+    margin-bottom: 30px;   
+}
+
+footer .footer-box h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer-box ul{
+    list-style: none;
+    margin-bottom: 30px;    
+}
+
+footer .footer-box ul li{
+    margin-bottom: 10px;
+}
+
+footer .footer-box ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .separation-line{
+    border-color: white;   
+}
+
+footer .lang-selection{
+    color: gray;
+}
+
+footer .lang-selection select{
+    color: gray;
+    background-color: transparent;
+    border: none;
+}
+
+footer .lang-selection select option{
+    color: gray;
+    background-color: black;
+    border: none;
+}
+
+/* Fine stile footer */
