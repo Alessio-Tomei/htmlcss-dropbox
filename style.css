@@ -13,12 +13,12 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .belittle-text{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .center-conteiner{
@@ -26,11 +26,11 @@ body{
 }
 
 .cc-medium{
-    width: 90%;
+    width: 85%;
 }
 
 .cc-small{
-    width: 80%;
+    width: 70%;
 }
 
 .clearfix::after{
@@ -47,6 +47,7 @@ header{
     line-height: 80px;
     background-color: white;
     position: fixed;
+    z-index: 2;
     top: 0%;
     left: 0%;
     padding: 0px 30px;
@@ -111,7 +112,7 @@ header nav ul li a{
 }
 
 .btn-padding-1{
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 /* Fine stile bottoni */
@@ -124,7 +125,7 @@ main{
 
 #banner{
     background-color: #b4d0e7;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 #banner h1{
@@ -153,10 +154,6 @@ main{
     font-size: 50px;
 }
 
-#banner .jumbo-text a.button{
-    display: inline-block;
-}
-
 #banner .jumbo-img{
     width: 70%;
     float: left;
@@ -167,3 +164,109 @@ main{
 }
 
 /* Fine stile banner */
+
+/* Inizio stile piani tariffari */
+
+#tarrif-plan div.center-conteiner > *,
+#tarrif-plan .plan-conteiner .float-plan-conteiner{
+    margin-bottom: 40px;
+}
+
+#tarrif-plan h2{
+    font-size: 40px;
+}
+
+#tarrif-plan .plan-radio label{
+    margin-right: 10px;
+}
+
+#tarrif-plan .plan-conteiner .plan-box{
+    border: 1px solid lightgray;
+}
+
+#tarrif-plan .plan-conteiner .float-plan-conteiner .plan-box{
+    float: left;
+    width: 30%;
+    height: 1000px;
+}
+
+#tarrif-plan .plan-conteiner .float-plan-conteiner .plan-box:nth-child(2){
+    margin: 0% 5%;
+}
+
+#tarrif-plan .plan-conteiner .plan-box > div:nth-child(1n +2){
+    padding: 0px 30px;
+    margin-bottom: 40px;
+}
+
+#tarrif-plan .plan-conteiner .plan-type{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+#tarrif-plan .plan-conteiner h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#tarrif-plan .plan-conteiner h4{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#tarrif-plan .plan-conteiner h5{
+    color: gray;
+    font-weight: 600;
+}
+
+#tarrif-plan .plan-conteiner .plan-features p{
+    margin-bottom: 20px;
+}
+
+#tarrif-plan .plan-conteiner .plan-link > *{
+    margin-bottom: 20px;
+}
+
+#tarrif-plan .plan-conteiner .plan-link .button{
+    display: block;
+    text-align: center;
+}
+
+#tarrif-plan .plan-conteiner .plan-highlights h4{
+    margin-bottom: 20px;
+}
+
+#tarrif-plan .plan-conteiner .plan-highlights ul{
+    list-style-type: none;
+}
+
+#tarrif-plan .plan-conteiner .plan-highlights ul li{
+    margin-bottom: 20px;
+}
+
+#tarrif-plan .plan-conteiner .plan-highlights ul li i{
+    color: #0061ff;
+}
+
+#tarrif-plan .plan-conteiner .footer-plan .plan-box .clearfix > div{
+    float: left
+}
+
+#tarrif-plan .plan-conteiner .footer-plan .plan-box .plan-main-info{
+    width: 70%;
+}
+
+#tarrif-plan .plan-conteiner .footer-plan .plan-box .plan-link{
+    width: 30%;
+}
+
+/* Rivedere margin di p dentro dentro footer plan */
+
+/* Fine stile piani tariffari */
+
+.separation-line{
+    width: 20%;
+    border-bottom: 1px solid lightgray;
+}
