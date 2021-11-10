@@ -87,6 +87,10 @@ header nav ul li a{
     color: black;
 }
 
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
 #header-left .logo,
 #header-left nav ul li{
     padding-right: 40px;
@@ -105,9 +109,17 @@ header nav ul li a{
     text-decoration: none;
 }
 
+.button:hover{
+    box-shadow: 0px 6px 6px 0px black;
+}
+
 .btn-color-1{
     background-color: #0061ff;
     color: white;
+}
+
+.btn-color-1:hover{
+    background-color: #2679ff;
 }
 
 .btn-color-2{
@@ -267,6 +279,10 @@ main{
     color: #0061ff;
 }
 
+#tarrif-plan .plan-conteiner .plan-link p a:hover{
+    text-decoration-color: #8cb8ff;
+}
+
 #tarrif-plan .plan-conteiner .plan-highlights h4{
     margin-bottom: 20px;
 }
@@ -402,6 +418,10 @@ main{
     color: #0061ff;
 }
 
+#company .company-title a:hover{
+    text-decoration-color: #8cb8ff;
+}
+
 #company .bgc-company-text{
     background-color: #f5f5f5;
 }
@@ -417,8 +437,7 @@ main{
 
 #company .company-text{
     width: 40%;
-    padding: 40px;
-    overflow: auto;
+    background-color: #f5f5f5;
 }
 
 #company .company-box .company-logo{
@@ -443,7 +462,23 @@ main{
     filter: invert(1);
 }
 
-#company .company-text > *{
+#company .company-text .text-dimension{
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+#company .company-text .text-dimension .comp-txt-center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+}
+
+#company .company-text .text-dimension .comp-txt-center > *{
     margin-bottom: 30px;
 }
 
@@ -567,6 +602,7 @@ main{
 #faq .row{
     border-bottom: 1px solid lightgray;
     padding: 30px 0px;
+    cursor: pointer;
 }
 
 #faq .question{
@@ -646,6 +682,10 @@ footer .footer-box ul li{
 footer .footer-box ul li a{
     color: white;
     text-decoration: none;
+}
+
+footer .footer-box ul li a:hover{
+    text-decoration: underline;
 }
 
 footer .separation-line{
