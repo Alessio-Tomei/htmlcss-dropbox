@@ -50,6 +50,7 @@ header{
     top: 0%;
     left: 0%;
     padding: 0px 30px;
+    border-bottom: 1px solid lightgray;
 }
 
 /* Probabilmente la scritta non era un img, la vertical-aling in px 
@@ -110,8 +111,13 @@ header nav ul li:hover #prova-sotto-menu{
     display: block;
     background-color: white;
     padding: 50px;
-    box-shadow: 0px 6px 4px 0px black;
+    box-shadow: 0px 4px 4px 0px black;
 }
+
+/* Esiste un metodo per selezionare questa cosa??!?!? bah */
+/* header nav ul li:hover "allora seleziona" main{
+    fill-opacity: 0.7;
+} */
 
 #header-left .logo,
 #header-left nav > ul > li{
